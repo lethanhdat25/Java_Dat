@@ -6,7 +6,7 @@ public class Cart {
     int id;
     String customer;
     double grandTotal;
-
+    String city;
     public int getId() {
         return id;
     }
@@ -32,12 +32,11 @@ public class Cart {
     }
 
     ArrayList<String> productList;
-    String city;
     public Cart(){
         productList=new ArrayList<String>();
     }
-    public void add(String a){
-        productList.add(a);
+    public boolean add(String a){
+        return productList.add(a);
     }
     public void remove(String a){
         productList.remove(a);

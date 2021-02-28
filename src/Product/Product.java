@@ -1,9 +1,9 @@
 package Product;
 
 public class Product {
-    int id,qty;
-    String productName;
-    double price;
+    public int id,qty;
+    public String productName;
+    public double price;
     public Product(){
         this.id=1;
         this.qty=10;
