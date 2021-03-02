@@ -1,4 +1,4 @@
-package laps3_Room;
+package lab.laps3_Room;
 
 
 import java.util.ArrayList;

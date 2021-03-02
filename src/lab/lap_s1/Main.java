@@ -1,4 +1,4 @@
-package lap_s1;
+package lab.lap_s1;
 
 public class Main {
     public static void main(String[] args) {

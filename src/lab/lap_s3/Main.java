@@ -1,4 +1,4 @@
-package lap_s3;
+package lab.lap_s3;
 
 public class Main {
     public static void main(String[] args){

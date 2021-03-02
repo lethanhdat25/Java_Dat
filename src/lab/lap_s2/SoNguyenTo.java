@@ -1,4 +1,4 @@
-package lap_s2;
+package lab.lap_s2;
 
 public class SoNguyenTo {
     int a;

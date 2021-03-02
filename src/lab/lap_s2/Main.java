@@ -1,4 +1,4 @@
-package lap_s2;
+package lab.lap_s2;
 
 import java.util.Scanner;
 

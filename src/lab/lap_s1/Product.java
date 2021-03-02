@@ -1,6 +1,4 @@
-package lap_s1;
-
-import java.text.DecimalFormat;
+package lab.lap_s1;
 
 public class Product {
     int MaSP;

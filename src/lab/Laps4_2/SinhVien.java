@@ -1,4 +1,4 @@
-package Laps4_2;
+package lab.Laps4_2;
 
 public class SinhVien {
     int maso;

@@ -1,4 +1,4 @@
-package Laps4;
+package lab.Laps4;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Laps4;
+package lab.Laps4;
 
 public class Account {
     int id;
