@@ -7,7 +7,7 @@ public class GiaoVien extends Person {
     ArrayList<String> listStudent=new ArrayList<String>();
     float mucLuong;
     int soMon;
-    String cacMon;
+    ArrayList<String> cacMon=new ArrayList<String>();
 
     public double getMucLuong() {
         return mucLuong;
@@ -25,14 +25,9 @@ public class GiaoVien extends Person {
         this.soMon = soMon;
     }
 
-    public String getCacMon() {
+    public ArrayList<String> getCacMon() {
         return cacMon;
     }
-
-    public void setCacMon(String cacMon) {
-        this.cacMon = cacMon;
-    }
-
     public ArrayList<String> getListStudent() {
         return listStudent;
     }
@@ -41,15 +36,20 @@ public class GiaoVien extends Person {
     public void nhapThongTin() {
         super.nhapThongTin();
         Scanner sc=new Scanner(System.in);
+        System.out.println("So lop day");
+        int i=sc.nextInt();
         System.out.println("danh sach lop: ");
-        listStudent.add(sc.nextLine());
+        for (int z=0;z<i;z++){
+            listStudent.add(sc.nextLine());
+        }
         System.out.println("muc luong: ");
         setMucLuong(sc.nextFloat());
         System.out.println("So mon day: ");
         setSoMon(sc.nextInt());
         System.out.println("Cac mon giang day: ");
-        setCacMon(sc.nextLine());
-
+        for (int m=0;m<getSoMon();m++){
+            cacMon.add(sc.nextLine());
+        }
     }
 
     @Override
