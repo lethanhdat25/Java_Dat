@@ -1,6 +1,7 @@
 package assignment.As6;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MonHocDaiCuong extends MonHoc {
 
@@ -40,6 +41,11 @@ public class MonHocDaiCuong extends MonHoc {
         for (LopHoc x:
              danhSachLopHoc) {
             System.out.println("Lop hoc: "+x.getLopHoc()+" co "+x.getSoLuongHocSinh()+" hoc sinh");
+            for (int i=0;i<x.getSoLuongHocSinh();i++){
+                Scanner sc=new Scanner(System.in);
+                System.out.println("Moi ban nhap hoc sinh thu "+i);
+                x.danhSachHocSinh.add(sc.nextLine());
+            }
         }
     }
 }

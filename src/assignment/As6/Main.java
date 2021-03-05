@@ -6,7 +6,7 @@ public class Main {
         mhdc.themLopHoc("adfa",3);
         mhdc.themLopHoc("adfa",3);
         mhdc.themLopHoc("adfa",3);
-        mhdc.themLopHoc("adf",54);
+        mhdc.themLopHoc("adf",5);
         mhdc.inDanhSach();
     }
 }
