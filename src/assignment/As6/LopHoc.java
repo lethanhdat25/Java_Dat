@@ -2,6 +2,7 @@ package assignment.As6;
 
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class LopHoc {
     String lopHoc;
@@ -31,5 +32,11 @@ public class LopHoc {
 
     public ArrayList<String> getDanhSachHocSinh() {
         return danhSachHocSinh;
+    }
+    public void nhapHS(){
+        for(int i=0;i<soLuongHocSinh;i++){
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Moi ban nhap hoc sinh thu "+i);
+            danhSachHocSinh.add(sc.nextLine());        }
     }
 }
