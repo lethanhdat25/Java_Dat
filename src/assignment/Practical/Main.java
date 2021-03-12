@@ -20,5 +20,6 @@ public class Main {
             System.out.println("Ten khach san: "+x.name+", dia chi: "+x.location+", ten chu khach san: "+x.ownerName);
         }
         hotel.check("Khanh");
+        hotel.check("Dat");
     }
 }
