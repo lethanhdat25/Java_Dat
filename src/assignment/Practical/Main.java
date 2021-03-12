@@ -41,6 +41,6 @@ public class Main {
                     run=false;
                     break;
             }
-        } while (run==true);
+        } while (run);
     }
 }
