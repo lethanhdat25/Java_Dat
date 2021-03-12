@@ -24,12 +24,13 @@ public class Main {
             switch (hotel.luachon){
                 case 1:
                     System.out.println("Trong danh sach da co 10 khach san, moi ban nhap ten khach san muon them: ");
-                    String ten=sc.next();
+                    String ten=sc.nextLine();
                     System.out.println("Moi ban nhap dia chi cua khach san: ");
-                    String diachi=sc.next();
+                    String diachi=sc.nextLine();
                     System.out.println("Moi ban nhap ten chu nhan cua khach san: ");
-                    String tenchu=sc.next();
+                    String tenchu=sc.nextLine();
                     hotel.add(ten,diachi,tenchu);
+                    System.out.println("Da them thanh cong");
                     break;
                 case 2:
                     System.out.println("Nhap ten cua chu khach san ma ban muon tim: ");
