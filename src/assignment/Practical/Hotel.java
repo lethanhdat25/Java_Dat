@@ -1,11 +1,13 @@
 package assignment.Practical;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Hotel {
     String name;
     String location;
     String ownerName;
+    int luachon;
     ArrayList<Hotel> listHotel;
     public Hotel() {
         listHotel=new ArrayList<>();
@@ -52,6 +54,17 @@ public class Hotel {
         }
         Hotel h=new Hotel(name,location,ownerName);
         listHotel.add(h);
+    }
+    public void luaChon() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Moi ban nhap lua chon: ");
+        luachon = sc.nextInt();
+    }
+
+    public void menu() {
+        System.out.println("1.Them Khach San");
+        System.out.println("2.Tim Khach San.");
+        System.out.println("3. Exit.");
     }
 
     public  void check(String ownerName){
