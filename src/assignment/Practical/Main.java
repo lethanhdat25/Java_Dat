@@ -19,7 +19,7 @@ public class Main {
              hotel.listHotel) {
             System.out.println("Ten khach san: "+x.name+", dia chi: "+x.location+", ten chu khach san: "+x.ownerName);
         }
-        hotel.check("Khanh");
+        hotel.check("Chien");
         hotel.check("Dat");
     }
 }
