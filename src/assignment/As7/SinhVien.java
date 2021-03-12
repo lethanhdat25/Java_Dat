@@ -51,10 +51,6 @@ public class SinhVien {
     public SinhVien() {
     }
 
-    public ArrayList<String> getStudents() {
-        return Students;
-    }
-
     public SinhVien(int id, int age, String name, String address, float gpa) {
         this.id = id;
         this.age = age;
